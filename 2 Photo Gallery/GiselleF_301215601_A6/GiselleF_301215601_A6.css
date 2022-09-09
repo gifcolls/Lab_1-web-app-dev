@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.mainBody {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+	background-attachment: fixed;
+	color: #ffffff;
+	font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+    align-self: center;
+    margin: 0 0 20px 0;
+    color: mediumpurple;
+    padding: 10px;
+}
+
+h1{
+    box-sizing: border-box;
+    background-color: #fff;
+    border: solid 3px violet;;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px 0 10px 0;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+    color: hotpink;
+    font-weight: bolder;
+}
+
+
+p {
+    margin: 20px 0 0 0;
+}
+a, a:visited {
+	border-bottom-style: solid;
+	border-width: thin;
+	color: #ffffff;
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 0.18s;
+    
+}
+.mainGallery {
+    width: 1060px;
+    display: block;
+    height: 700px;
+    align-self: center;
+    position: relative;
+    background-color: #fff;
+}
+.galleryImg {
+    height: 600px;
+    width: 960px;
+    margin: auto;
+    padding: 30px;
+        
+}
+
+
+.galleryImg img {
+    height: auto;
+    width: 960px;
+}
+.galleryBackward, .galleryForward {
+-moz-user-select: none;
+-ms-user-select: none; 
+user-select: none;
+}
+.galleryBackward, .galleryForward {
+    height: 100%;
+    width: 50px; 
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+.backwardArrow, .forwardArrow {
+    font-family: fantasy;
+    font-size: 50px;
+    padding: 6px;
+    color: hotpink;
+    align-self: center;
+    border-radius: 5px;
+
+    
+}
+
+
+.galleryForward {
+    right: 0;
+    left: auto;
+}
